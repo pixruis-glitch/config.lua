@@ -106,7 +106,6 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Buy List"] = {
             "Midnight Bait",
             "Chroma Bait",
-            "Corrupt Bait",
             "Singularity Bait",
         },
         ["Endgame"] = "Singularity Bait",
