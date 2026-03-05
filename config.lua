@@ -11,7 +11,7 @@ _G.FishItConfig = _G.FishItConfig or {
         },
 
         ["Auto Accept Trade"] = true,
-        ["Auto Friend Request"] = true,
+        ["Auto Friend Request"] = false,
     },
     ["Auto Trade"] = {
         ["Enabled"] = true,
@@ -39,7 +39,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Ghostfinn Rod"] = true,
         ["Auto Element Rod"] = false,
         ["Auto Diamond Rod"] = false,
-        ["Unlock Ancient Ruin"] = false,
+        ["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
             "Ghost Shark",
         },
@@ -71,8 +71,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
-            ["Mutation Totem"] = 10,
-            "Mutation Totem",
+            ["Luck Totem"] = 10,
+            "Luck Totem",
         },
     },
     ["Event"] = {
@@ -85,19 +85,27 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Enchant"] = {
         ["Auto Enchant"] = true,
         ["Roll Enchant"] = false,
-        ["Evolved Roll Enchant"] = false,
+        ["Evolved Roll Enchant"] = true,
         ["Enchant List"] = {
-            "Cursed I",
+            "Reeler I",
+            "Reeler II",
+            "Empowered I",
+            "SECRET Hunter",
         },
-        ["Second Enchant"] = false,
+        ["Second Enchant"] = true,
         ["Allowed Sacrifice"] = {
             "Frostborn Shark",
             "Cryoshade Glider",
+            "King Crab",
+            "Queen Crab",
+            "Robot Kraken",
+            "Giant Squid",
+            "Panther Eel",
         },
         ["Second Enchant List"] = {
             "Reeler I",
-            "Prismatic I",
-            "Mutation Hunter II",
+            "Empowered I",
+            "Perfection",
         },
         ["Minimum Rod"] = "Ghostfinn Rod",
     },
@@ -106,9 +114,9 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Buy List"] = {
             "Midnight Bait",
             "Chroma Bait",
-            "Floral Bait",
+            "Singularity Bait",
         },
-        ["Endgame"] = "Floral Bait",
+        ["Endgame"] = "Singularity Bait",
     },
     ["Rod List"] = {
         ["Auto Buying"] = true,
@@ -121,8 +129,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Location Rods"] = {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Tropical Grove"] = {"Grass Rod", "Midnight Rod"},
-            ["Treasure Room"] = {"Ares Rod", "Astral Rod"},
-            ["Treasure Room"] = {"Element Rod", "Ghostfinn Rod"},
+            ["Ancient Ruin"] = {"Ares Rod", "Astral Rod"},
+            ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod"},
         },
         ["Endgame"] = "Treasure Room",
     },
