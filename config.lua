@@ -39,7 +39,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Ghostfinn Rod"] = true,
         ["Auto Element Rod"] = false,
         ["Auto Diamond Rod"] = false,
-        ["Unlock Ancient Ruin"] = true,
+        ["Unlock Ancient Ruin"] = false,
         ["Allowed Sacrifice"] = {
             "Ghost Shark",
         },
@@ -71,8 +71,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
-            ["Luck Totem"] = 10,
-            "Luck Totem",
+            ["Mutation Totem"] = 10,
         },
     },
     ["Event"] = {
@@ -85,12 +84,9 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Enchant"] = {
         ["Auto Enchant"] = true,
         ["Roll Enchant"] = false,
-        ["Evolved Roll Enchant"] = true,
+        ["Evolved Roll Enchant"] = false,
         ["Enchant List"] = {
-            "Reeler I",
-            "Reeler II",
-            "Empowered I",
-            "SECRET Hunter",
+            "Cursed I",
         },
         ["Second Enchant"] = true,
         ["Allowed Sacrifice"] = {
@@ -103,9 +99,9 @@ _G.FishItConfig = _G.FishItConfig or {
             "Panther Eel",
         },
         ["Second Enchant List"] = {
-            "Reeler I",
-            "Empowered I",
+            "Cursed I",
             "Perfection",
+            "Empowered I",
         },
         ["Minimum Rod"] = "Ghostfinn Rod",
     },
@@ -129,8 +125,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Location Rods"] = {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Tropical Grove"] = {"Grass Rod", "Midnight Rod"},
-            ["Ancient Ruin"] = {"Ares Rod", "Astral Rod"},
-            ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod"},
+            ["Treasure Room"] = {"Ares Rod", "Astral Rod"},
+            ["Treasure Room"] = {"Element Rod", "Ghostfinn Rod"},
         },
         ["Endgame"] = "Treasure Room",
     },
