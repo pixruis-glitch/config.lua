@@ -92,9 +92,6 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Allowed Sacrifice"] = {
             "Frostborn Shark",
             "Cryoshade Glider",
-            "King Crab",
-            "Queen Crab",
-            "Robot Kraken",
             "Giant Squid",
             "Panther Eel",
         },
