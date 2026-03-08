@@ -15,7 +15,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Auto Trade"] = {
         ["Enabled"] = true,
-        ["Whitelist Username"] = {"STOCKRUPING"},
+        ["Whitelist Username"] = {"RupingFISH1", "RupingFISH2", "RupingFISH3"},
         ["Category Fish"] = {
             "Secret",
         },
@@ -33,7 +33,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Selling"] = {
         ["Auto Sell"] = true,
         ["Auto Sell Threshold"] = "Mythic",
-        ["Auto Sell Every"] = 50,
+        ["Auto Sell Every"] = 150,
     },
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
@@ -90,7 +90,6 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Second Enchant"] = true,
         ["Allowed Sacrifice"] = {
-            "Frostborn Shark",
             "Cryoshade Glider",
             "Giant Squid",
             "Panther Eel",
@@ -99,6 +98,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Cursed I",
             "Perfection",
             "Empowered I",
+            "Reeler I",
         },
         ["Minimum Rod"] = "Ghostfinn Rod",
     },
