@@ -1,8 +1,10 @@
+
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
 _G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
         ["Auto Perfect"] = false,
-        ["Random Result"] = false,
+        ["Random Result"] = true,
 
         ["Auto Favorite"] = true,
         ["Auto Unfavorite"] = false,
@@ -37,13 +39,14 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
-        ["Auto Element Rod"] = false,
+        ["Auto Element Rod"] = true,
         ["Auto Diamond Rod"] = false,
-        ["Unlock Ancient Ruin"] = false,
+        ["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
-            "Ghost Shark",
+            "King Crab",
+            "Queen Crab",
         },
-        ["FARM_LOC_SECRET_SACRIFICE"] = "Ocean",
+        ["FARM_LOC_SECRET_SACRIFICE"] = "Treasure Room",
 
         ["Minimum Rod"] = "Astral Rod",
     },
@@ -53,6 +56,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Category"] = {
         "Secret",
         {Name = "Ruby", Variant = "Gemstone"},
+        ["Item Name"] = {"Evolved Enchant Stone",},
     },
 
         ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1472600840018596005/CwgnFtj19DNKVNus0Rkg5ybzUKET4cObpaUFHDpxFkbu2qUK9ugj08BdEoBEUcABpF6i",
@@ -74,7 +78,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
-            ["Mutation Totem"] = 18,
+            ["Mutation Totem"] = 10,
         },
     },
     ["Event"] = {
@@ -87,9 +91,12 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Enchant"] = {
         ["Auto Enchant"] = true,
         ["Roll Enchant"] = false,
-        ["Evolved Roll Enchant"] = false,
+        ["Evolved Roll Enchant"] = true,
         ["Enchant List"] = {
-            "Cursed I",
+            "Reeler I",
+            "Reeler II",
+            "Empowered I",
+            "SECRET Hunter",
         },
         ["Second Enchant"] = true,
         ["Allowed Sacrifice"] = {
@@ -98,7 +105,6 @@ _G.FishItConfig = _G.FishItConfig or {
             "Panther Eel",
         },
         ["Second Enchant List"] = {
-            "Cursed I",
             "Perfection",
             "Empowered I",
             "Reeler I",
@@ -127,9 +133,9 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Tropical Grove"] = {"Grass Rod", "Midnight Rod"},
             ["Treasure Room"] = {"Ares Rod", "Astral Rod"},
-            ["Treasure Room"] = {"Element Rod", "Ghostfinn Rod"},
+            ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod"},
         },
-        ["Endgame"] = "Treasure Room",
+        ["Endgame"] = "Ancient Ruin",
     },
 
     ["ExtremeFpsBoost"] = true,
