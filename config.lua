@@ -42,7 +42,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Element Rod"] = false,
         ["Auto Element Rod 2"] = false,
         ["Auto Diamond Rod"] = false,
-        ["Unlock Ancient Ruin"] = false,
+        ["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
             "King Crab",
             "Queen Crab",
@@ -96,7 +96,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Enchant"] = {
         ["Auto Enchant"] = true,
         ["Roll Enchant"] = false,
-        ["Evolved Roll Enchant"] = false,
+        ["Evolved Roll Enchant"] = true,
         ["Enchant List"] = {
             "Cursed I",
         },
@@ -135,9 +135,9 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Tropical Grove"] = {"Grass Rod", "Midnight Rod"},
             ["Treasure Room"] = {"Ares Rod", "Astral Rod"},
-            ["Tropical Grove"] = {"Element Rod", "Ghostfinn Rod"},
+            ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod"},
         },
-        ["Endgame"] = "Tropical Grove",
+        ["Endgame"] = "Ancient Ruin",
     },
 
     ["ExtremeFpsBoost"] = true,
