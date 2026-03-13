@@ -45,6 +45,10 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Allowed Sacrifice"] = {
             "King Crab",
             "Queen Crab",
+            "Bone Whale",
+            "Gladiator Shark",
+            "King Jelly",
+            "Mosasaur Shark",
         },
         ["FARM_LOC_SECRET_SACRIFICE"] = "Treasure Room",
 
