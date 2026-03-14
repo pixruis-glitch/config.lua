@@ -56,14 +56,15 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Astral Rod",
     },
     ["WebHook"] = {
-        ["Link Webhook"] = "https://discord.com/api/webhooks/1472600700709240987/Yd_DvB_KZV09mH6KfYlu7IQCBsGzAZyHGPgVq0Fi8yEfSS4iBA-LFmpHkQZU73AwhjMF",
-        ["Auto Sending"] = true,
-        ["Category"] = {
+    ["Auto Sending"] = true,
+    ["Category"] = {
         "Secret",
         {Name = "Ruby", Variant = "Gemstone"},
-        ["Item Name"] = {"Evolved Enchant Stone"},
     },
-
+    ["Item Name"] = {
+        "Evolved Enchant Stone",
+    },
+    ["Link Webhook"] = "https://discord.com/api/webhooks/1472600700709240987/Yd_DvB_KZV09mH6KfYlu7IQCBsGzAZyHGPgVq0Fi8yEfSS4iBA-LFmpHkQZU73AwhjMF",
         ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1472600840018596005/CwgnFtj19DNKVNus0Rkg5ybzUKET4cObpaUFHDpxFkbu2qUK9ugj08BdEoBEUcABpF6i",
     },
     ["Weather"] = {
