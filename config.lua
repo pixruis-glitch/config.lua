@@ -100,19 +100,23 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Evolved Roll Enchant"] = true,
         ["Enchant List"] = {
             "Cursed I",
+            "SECRET Hunter",
+            
         },
         ["Second Enchant"] = true,
         ["Allowed Sacrifice"] = {
             "Cryoshade Glider",
             "Giant Squid",
             "Panther Eel",
+            "King Crab",
+            "Queen Crab",
         },
         ["Second Enchant List"] = {
             "Perfection",
             "Cursed I",
             "Reeler I",
         },
-        ["Minimum Rod"] = "Ghostfinn Rod",
+        ["Minimum Rod"] = "Element Rod",
     },
     ["Bait List"] = {
         ["Auto Buying"] = true,
