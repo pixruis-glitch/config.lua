@@ -40,7 +40,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
         ["Auto Element Rod"] = false,
-        ["Auto Element Rod 2"] = true,
+        ["Auto Element Rod 2"] = false,
         ["Auto Diamond Rod"] = false,
         ["Unlock Ancient Ruin"] = false,
         ["Allowed Sacrifice"] = {
@@ -100,7 +100,6 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Evolved Roll Enchant"] = true,
         ["Enchant List"] = {
             "Cursed I",
-            "SECRET Hunter",
             
         },
         ["Second Enchant"] = true,
@@ -115,8 +114,9 @@ _G.FishItConfig = _G.FishItConfig or {
             "Perfection",
             "Cursed I",
             "Reeler I",
+            "Empowered I",
         },
-        ["Minimum Rod"] = "Element Rod",
+        ["Minimum Rod"] = "Ghostfin Rod",
     },
     ["Bait List"] = {
         ["Auto Buying"] = true,
