@@ -100,6 +100,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Evolved Roll Enchant"] = true,
         ["Enchant List"] = {
             "Cursed I",
+            "SECRET Hunter",
             
         },
         ["Second Enchant"] = true,
@@ -116,7 +117,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Reeler I",
             "Empowered I",
         },
-        ["Minimum Rod"] = "Ghostfin Rod",
+        ["Minimum Rod"] = "Element Rod",
     },
     ["Bait List"] = {
         ["Auto Buying"] = true,
