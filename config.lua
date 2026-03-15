@@ -100,6 +100,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Evolved Roll Enchant"] = true,
         ["Enchant List"] = {
             "Cursed I",
+            "Reeler II",
+            "Empowered I",
             "SECRET Hunter",
             
         },
@@ -141,9 +143,9 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Tropical Grove"] = {"Grass Rod", "Midnight Rod"},
             ["Treasure Room"] = {"Ares Rod", "Astral Rod"},
-            ["Treasure Room"] = {"Element Rod", "Ghostfinn Rod"},
+            ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod"},
         },
-        ["Endgame"] = "Treasure Room",
+        ["Endgame"] = "Ancient Ruin",
     },
 
     ["ExtremeFpsBoost"] = true,
