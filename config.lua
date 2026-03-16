@@ -12,7 +12,7 @@ _G.FishItConfig = _G.FishItConfig or {
             {Name = "Ruby", Variant = "Gemstone"},
         },
 
-        ["Auto Accept Trade"] = trade,
+        ["Auto Accept Trade"] = true,
         ["Auto Friend Request"] = false,
     },
     ["Auto Trade"] = {
