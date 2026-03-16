@@ -12,12 +12,12 @@ _G.FishItConfig = _G.FishItConfig or {
             {Name = "Ruby", Variant = "Gemstone"},
         },
 
-        ["Auto Accept Trade"] = true,
+        ["Auto Accept Trade"] = trade,
         ["Auto Friend Request"] = false,
     },
     ["Auto Trade"] = {
         ["Enabled"] = true,
-        ["Whitelist Username"] = {"RupingFISH1", "RupingFISH2", "RupingFISH3"},
+        ["Whitelist Username"] = {"RupingFISH1", "RupingFISH2", "RupingFISH3", "RupingFISH4", "STOCKRUPING"},
         ["Category Fish"] = {
             "Secret",
         },
