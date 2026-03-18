@@ -9,6 +9,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Favorite"] = true,
         ["Auto Unfavorite"] = false,
         ["Fish Name"] = {
+            "Sacred Guardian Squid",
             {Name = "Ruby", Variant = "Gemstone"},
         },
 
@@ -22,6 +23,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Secret",
         },
         ["Fish Name"] = {
+            "Sacred Guardian Squid",
             {Name = "Ruby", Variant = "Gemstone"},
         },
         ["Item Name"] = {
