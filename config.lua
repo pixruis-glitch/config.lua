@@ -104,9 +104,9 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Roll Enchant"] = false,
         ["Evolved Roll Enchant"] = true,
         ["Enchant List"] = {
+            "Cursed I",
             "Reeler II",
             "Reeler I",
-            "Cursed I",
             "Empowered I",
             "Mutation Hunter III",
             "SECRET Hunter",
@@ -120,8 +120,8 @@ _G.FishItConfig = _G.FishItConfig or {
             "Queen Crab",
         },
         ["Second Enchant List"] = {
-            "Perfection",
             "Cursed I",
+            "Perfection",
             "Reeler I",
             "Empowered I",
         },
