@@ -150,7 +150,7 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Tropical Grove"] = {"Grass Rod", "Midnight Rod"},
             ["Treasure Room"] = {"Element Rod", "Ghostfinn Rod", "Ares Rod", "Astral Rod"},
         },
-        ["Endgame"] = "Treasure Room",
+        ["Endgame"] = "",
     },
 
     ["ExtremeFpsBoost"] = true,
