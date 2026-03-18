@@ -147,9 +147,9 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Tropical Grove"] = {"Grass Rod", "Midnight Rod"},
             ["Treasure Room"] = {"Ghostfinn Rod", "Ares Rod", "Astral Rod"},
-            ["Ancient Ruin"] = {"Element Rod"},
+            ["Crystal Depths"] = {"Element Rod"},
         },
-        ["Endgame"] = "Ancient Ruin",
+        ["Endgame"] = "Crystal Depths",
     },
 
     ["ExtremeFpsBoost"] = true,
