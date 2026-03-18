@@ -88,6 +88,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Buy List"] = {
             ["Mutation Totem"] = 10,
             "Mutation Totem",
+            "Shiny Totem",
         },
     },
     ["Event"] = {
