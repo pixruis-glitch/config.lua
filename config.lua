@@ -40,7 +40,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
         ["Auto Element Rod"] = false,
-        ["Auto Element Rod 2"] = false,
+        ["Auto Element Rod 2"] = true,
         ["Auto Diamond Rod"] = false,
         ["Unlock Ancient Ruin"] = false,
         ["Allowed Sacrifice"] = {
@@ -121,7 +121,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Reeler I",
             "Empowered I",
         },
-        ["Minimum Rod"] = "Ghostfinn Rod",
+        ["Minimum Rod"] = "Element Rod",
     },
     ["Bait List"] = {
         ["Auto Buying"] = true,
@@ -144,10 +144,10 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Location Rods"] = {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Tropical Grove"] = {"Grass Rod", "Midnight Rod"},
-            ["Treasure Room"] = {"Ares Rod", "Astral Rod"},
-            ["Treasure Room"] = {"Element Rod", "Ghostfinn Rod"},
+            ["Treasure Room"] = {"Ghostfinn Rod", "Ares Rod", "Astral Rod"},
+            ["Ancient Ruin"] = {"Element Rod"},
         },
-        ["Endgame"] = "Treasure Room",
+        ["Endgame"] = "Ancient Ruin",
     },
 
     ["ExtremeFpsBoost"] = true,
