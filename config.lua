@@ -42,9 +42,9 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
         ["Auto Element Rod"] = false,
-        ["Auto Element Rod 2"] = false,
+        ["Auto Element Rod 2"] = true,
         ["Auto Diamond Rod"] = false,
-        ["Unlock Ancient Ruin"] = false,
+        ["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
             "King Crab",
             "Queen Crab",
@@ -123,7 +123,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Reeler I",
             "Empowered I",
         },
-        ["Minimum Rod"] = "Ghostfinn Rod",
+        ["Minimum Rod"] = "Element Rod",
     },
     ["Bait List"] = {
         ["Auto Buying"] = true,
