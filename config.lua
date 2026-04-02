@@ -86,8 +86,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
-            ["Mutation Totem"] = 5,
-            "Mutation Totem",
+            ["Luck Totem"] = 5,
+            "Luck Totem",
         },
     },
     ["Event"] = {
@@ -102,11 +102,9 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Roll Enchant"] = false,
         ["Evolved Roll Enchant"] = true,
         ["Enchant List"] = {
-            "Cursed I",
             "Reeler II",
             "Reeler I",
             "Empowered I",
-            "Mutation Hunter III",
             "SECRET Hunter",
         },
         ["Second Enchant"] = true,
@@ -118,7 +116,6 @@ _G.FishItConfig = _G.FishItConfig or {
             "Queen Crab",
         },
         ["Second Enchant List"] = {
-            "Cursed I",
             "Perfection",
             "Reeler I",
             "Empowered I",
