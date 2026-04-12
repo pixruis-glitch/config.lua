@@ -11,6 +11,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Fish Name"] = {
             "Sacred Guardian Squid",
             {Name = "Ruby", Variant = "Gemstone"},
+            {Name = "Eggy Enchant Stone", Variant = ""},
         },
 
         ["Auto Accept Trade"] = true,
@@ -18,7 +19,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Auto Trade"] = {
         ["Enabled"] = true,
-        ["Whitelist Username"] = {"Rupingss", "RupingFISH1", "RupingFISH2", "RupingFISH3", "RupingFISH4", "STOCKRUPING"},
+        ["Whitelist Username"] = {"Rupingss", "RupingFISH1", "RupingFISH3", "RupingFISH4", "STOCKRUPING"},
         ["Category Fish"] = {
             "Secret",
         },
@@ -28,6 +29,7 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Item Name"] = {
             "Evolved Enchant Stone",
+            "Eggy Enchant Stone",
         },
     },
     ["Farm Coin Only"] = {
@@ -143,7 +145,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Location Rods"] = {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Tropical Grove"] = {"Grass Rod", "Midnight Rod"},
-            ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod", "Ares Rod", "Astral Rod"},
+            ["Easter Cave"] = {"Element Rod", "Ghostfinn Rod", "Ares Rod", "Astral Rod"},
         },
         ["Endgame"] = "",
     },
