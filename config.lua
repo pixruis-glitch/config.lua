@@ -110,7 +110,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Empowered I",
             "SECRET Hunter",
         },
-        ["Second Enchant"] = true,
+        ["Second Enchant"] = false,
         ["Allowed Sacrifice"] = {
             "Cryoshade Glider",
             "Giant Squid",
