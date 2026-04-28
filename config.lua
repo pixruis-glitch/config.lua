@@ -20,7 +20,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Auto Trade"] = {
         ["Enabled"] = true,
-        ["Whitelist Username"] = {"Rupingss", "STOCKRUPING", "RupingGacor1", "RupingGacor2", "RupingGacor3", "RupingGacor04", "RupingGacor5", "RupingGacor6", "RupingGacor7", "RupingGacor8", "RupingGacor9", "RupingGacor10"},
+        ["Whitelist Username"] = {"Rupingss", "STOCKRUPING", "RupingGacor1", "RupingGacor2", "RupingGacor3", "RupingGacor04", "RupingGacor5", "RupingGacor6", "RupingGacor7", "RupingGacor8", "RupingGacor9", "RupingGacor10", "RupingGacor11", "RupingGacor12", "RupingGacor13", "RupingGacor14", "RupingGacor15", "RupingGacor16", "RupingGacor17", "RupingGacor18", "RupingGacor19", "RupingGacor20", "RupingGacor21", "RupingGacor22", "RupingGacor23", "RupingGacor24", "RupingGacor25", "RupingGacor26", "RupingGacor27", "RupingGacor28", "RupingGacor29", "RupingGacor30", "RupingGacor31", "RupingGacor32", "RupingGacor33", "RupingGacor34", "RupingGacor35", "RupingGacor36", "RupingGacor37", "RupingGacor38", "RupingGacor39", "RupingGacor40", "RupingGacor41", "RupingGacor42", "RupingGacor43", "RupingGacor44", "RupingGacor45", "RupingGacor46", "RupingGacor47", "RupingGacor48", "RupingGacor49", "RupingGacor50"},
         ["Category Fish"] = {
             "Secret",
         },
@@ -101,16 +101,16 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
     ["Enchant"] = {
-        ["Auto Enchant"] = false,
+        ["Auto Enchant"] = true,
         ["Roll Enchant"] = false,
-        ["Evolved Roll Enchant"] = false,
+        ["Evolved Roll Enchant"] = true,
         ["Enchant List"] = {
             "Reeler II",
             "Reeler I",
             "Empowered I",
             "SECRET Hunter",
         },
-        ["Second Enchant"] = false,
+        ["Second Enchant"] = true,
         ["Allowed Sacrifice"] = {
             "Cryoshade Glider",
             "Giant Squid",
