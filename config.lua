@@ -4,7 +4,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/he
 _G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
         ["Auto Perfect"] = false,
-        ["Random Result"] = true,
+        ["Random Result"] = false,
 
         ["Auto Favorite"] = true,
         ["Auto Unfavorite"] = false,
@@ -110,7 +110,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Empowered I",
             "SECRET Hunter",
         },
-        ["Second Enchant"] = true,
+        ["Second Enchant"] = false,
         ["Allowed Sacrifice"] = {
             "Cryoshade Glider",
             "Giant Squid",
